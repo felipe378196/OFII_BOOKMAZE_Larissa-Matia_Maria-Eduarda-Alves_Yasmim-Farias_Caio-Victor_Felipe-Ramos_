@@ -1,0 +1,23 @@
+.sobreojogo{
+    
+    font-size: 30px;
+}
+.paragrafodojogo{
+    font-size: 18px;
+}
+.link1 {
+    display: inline-block;     /* Coloca os links lado a lado */
+    margin-right: 700px;        /* Espaço entre os links */
+    text-decoration: none;     /* Remove o sublinhado */
+  }
+
+.joga {
+        display: inline-block;     /* Coloca os links lado a lado */
+        margin-right: 500px;        /* Espaço entre os links */
+        text-decoration: none;     /* Remove o sublinhado */
+}
+.personagem{
+    display: inline-block;     /* Coloca os links lado a lado */
+    margin-right: 900px;        /* Espaço entre os links */
+    text-decoration: none;     /* Remove o sublinhado */
+}
