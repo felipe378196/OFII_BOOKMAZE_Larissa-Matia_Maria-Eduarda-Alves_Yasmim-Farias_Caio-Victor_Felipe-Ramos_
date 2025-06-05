@@ -1,6 +1,6 @@
 .tudo{
- background: #940627;
-background: radial-gradient(circle, rgba(148, 6, 39, 1) 53%, rgba(94, 14, 44, 1) 88%);
+    background: #0066ff;
+    background: linear-gradient(90deg, rgba(0, 102, 255, 1) 1%, rgba(255, 0, 0, 1) 100%);
 }
 
 
@@ -32,4 +32,6 @@ html, body {
     width: 100%;                   
     text-align: center;             
 }
+
+
 
