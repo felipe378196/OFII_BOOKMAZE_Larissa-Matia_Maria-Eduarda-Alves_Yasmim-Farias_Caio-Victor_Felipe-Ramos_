@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'College-Block';
+    src: url('/College-Block_1.ttf') format('truetype');
+  }
+
 a:-webkit-any-link {
     color: black;
     cursor: pointer;
@@ -7,37 +12,20 @@ a:-webkit-any-link {
 .tudo {
     background: #FFE19D;
     background: linear-gradient(90deg, rgba(255, 225, 157, 1) 0%, rgba(166, 228, 228, 1) 35%, rgba(255, 241, 192, 1) 100%);
-}
-
-
-.jogo {
-    font-family: "Luckiest Guy", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.eles a {
-    display: inline-block;
-    padding-left: 40px;
-}
-
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    font-family: Arial, sans-serif;
-}
-
-.tudo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* height: 100vh;               */
     width: 100%;
     text-align: center;
+    font-family: 'College-Block';
+}
+
+
+.jogo {
+   
+    font-weight: 400;
+    font-style: normal;
 }
 
 .cards {
@@ -72,6 +60,7 @@ body {
 
 .card-titulo {
     font-size: 1.5em;
+    font-family: "Alfa Slab One";
     margin: 0 0 10px;
     font-weight: bold;
     color: #333;
