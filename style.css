@@ -147,7 +147,6 @@ a:-webkit-any-link {
 
 .personagem {
 display: flex;
-justify-content: flex-end; /* Empurra o conteúdo (imagem) para a direita */
 }
 
 .sobre {
