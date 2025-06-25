@@ -121,17 +121,15 @@ a:-webkit-any-link {
     margin-bottom: 20px;    
 }
 
-.rodapé {
-    background: #269900;
-    background: linear-gradient(90deg, rgba(38, 153, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    color: rgb(0, 0, 0);           /* Cor do texto */
-    text-align: center;              /* Centralizar texto */
-    padding: 10px 0;                 /* Espaçamento interno */
-    bottom: 0;
-    left: 0;
-    width: 100%;                     /* Ocupa toda a largura da tela */
-    font-family: Arial, sans-serif;  
-    font-size: 20px;
+.sobre {
+      max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.158);
+    line-height: 1.6em;
+    font-size: 1.2em;
+    text-align: justify;
 }
 
 .topico {
@@ -145,10 +143,6 @@ a:-webkit-any-link {
     text-align: justify;
 }
 
-.personagem {
-display: flex;
-}
-
 .sobre {
       max-width: 800px;
     padding: 20px;
@@ -158,4 +152,90 @@ display: flex;
     line-height: 1.6em;
     font-size: 1.2em;
     text-align: justify;
+}
+
+
+
+
+
+
+.tudo {
+  background: linear-gradient(90deg, rgba(255, 225, 157, 1) 0%, rgba(166, 228, 228, 1) 35%, rgba(255, 241, 192, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-family: 'College-Block';
+}
+
+.links-topo {
+  margin: 20px;
+}
+
+.voltar {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.titulo {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+}
+
+/* Bloco que organiza cada personagem e texto lado a lado */
+.bloco-personagem {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 30px 0;
+  gap: 30px;
+  width: 90%;
+}
+
+/* Personagem com imagem + nome */
+.personagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 150px;
+}
+
+.personagem img {
+  width: 150px;
+  height: auto;
+}
+
+.personagem .titulo {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* Texto descritivo */
+.sobre {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.158);
+  line-height: 1.6em;
+  font-size: 1.2em;
+  padding: 20px;
+  text-align: justify;
+  flex: 1;
+}
+
+.rodapé {
+    background: #269900;
+    background: linear-gradient(90deg, rgba(38, 153, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    color: rgb(0, 0, 0);           /* Cor do texto */
+    text-align: center;              /* Centralizar texto */
+    padding: 10px 0;                 /* Espaçamento interno */
+    bottom: 0;
+    left: 0;
+    width: 100%;                     /* Ocupa toda a largura da tela */
+    font-size: 20px;
 }
