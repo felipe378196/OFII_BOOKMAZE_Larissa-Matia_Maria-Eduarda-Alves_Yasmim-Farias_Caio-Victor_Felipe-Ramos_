@@ -154,12 +154,7 @@ a:-webkit-any-link {
     text-align: justify;
 }
 
-
-
-
-
-
-.tudo {
+.comntainer {
   background: linear-gradient(90deg, rgba(255, 225, 157, 1) 0%, rgba(166, 228, 228, 1) 35%, rgba(255, 241, 192, 1) 100%);
   display: flex;
   flex-direction: column;
@@ -188,7 +183,6 @@ a:-webkit-any-link {
   text-align: center;
 }
 
-/* Bloco que organiza cada personagem e texto lado a lado */
 .bloco-personagem {
   display: flex;
   align-items: flex-start;
@@ -198,7 +192,6 @@ a:-webkit-any-link {
   width: 90%;
 }
 
-/* Personagem com imagem + nome */
 .personagem {
   display: flex;
   flex-direction: column;
@@ -216,7 +209,7 @@ a:-webkit-any-link {
   font-size: 1.2em;
 }
 
-/* Texto descritivo */
+
 .sobre {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 12px;
@@ -231,11 +224,25 @@ a:-webkit-any-link {
 .rodapé {
     background: #269900;
     background: linear-gradient(90deg, rgba(38, 153, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    color: rgb(0, 0, 0);           /* Cor do texto */
-    text-align: center;              /* Centralizar texto */
+    color: rgb(0, 0, 0);         
+    text-align: center;             
     padding: 10px 0;                 /* Espaçamento interno */
     bottom: 0;
     left: 0;
     width: 100%;                     /* Ocupa toda a largura da tela */
     font-size: 20px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 10px;
+  width: 70x;
+  height: auto;
+}
+
+.perfil img{
+  width: 100px;
+  border-radius: 90px;
 }
