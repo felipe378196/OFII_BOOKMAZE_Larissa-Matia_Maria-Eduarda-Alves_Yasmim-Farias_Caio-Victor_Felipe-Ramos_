@@ -250,3 +250,23 @@ a:-webkit-any-link {
   border-radius: 90px;
 }
 
+.fotodogrupo{
+
+}
+
+.balao{
+  background-image: url("fotos/balao.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+}
+
+.balao > p{
+  max-width: 200px;
+  margin-bottom: 100px;
+}
